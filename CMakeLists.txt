@@ -1,6 +1,6 @@
 cmake_minimum_required(VERSION 2.6)
 project(python-moos)
-
+set(CMAKE_MACOSX_RPATH 1)
 find_package(MOOS 10 REQUIRED)
 
 find_package(PythonLibs)
